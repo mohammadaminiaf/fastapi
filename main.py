@@ -16,3 +16,6 @@ async def get_database_url():
     print('******************************************************')
     print(f'DATABASE_URL: {db_url}')
     print('******************************************************')
+    return {
+        "data": db_url
+    }
